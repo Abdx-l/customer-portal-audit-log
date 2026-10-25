@@ -1,0 +1,1 @@
+import{defineConfig}from'vite';export default defineConfig({server:{proxy:{'/login':'http://localhost:3000','/policies':'http://localhost:3000','/audit':'http://localhost:3000'}}});
